@@ -1,0 +1,33 @@
+/* 헤더 */
+.c-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-header h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* 바디 */
+body {
+    margin: 0 auto;
+}
+.c-container {
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+
+    .c-display {
+        border: 1px solid #000;
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .c-keypad {
+        border: 1px solid #000;
+        width: 300px;
+        height: 450px;
+        margin: 0 auto;
+    }
+}
