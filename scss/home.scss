@@ -16,18 +16,34 @@ body {
 .c-container {
     width: 50%;
     height: 700px;
-    margin: 0 auto;
+    margin: 5vw auto;
 
     .c-display {
-        border: 1px solid #000;
-        width: 300px;
+        border-left: 1px solid #000;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        width: 299px;
         height: 100px;
         margin: 0 auto;
     }
     .c-keypad {
-        border: 1px solid #000;
+        border: 1px solid #ddff;
         width: 300px;
         height: 450px;
         margin: 0 auto;
+
+        table {
+            width: 100%;
+            background-color: #ddff;
+            thead,tbody,tfoot {
+                tr,td {
+                    border: 1px solid black;
+                    width: 110px;
+                    height: 111.5px;
+                    text-align: center;
+                    line-height: 110px;
+                }
+            }
+        }
     }
 }
